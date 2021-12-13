@@ -23,7 +23,7 @@ downloadFile() {
 #判断文件夹是否存在 如果文件夹不存在，创建文件夹
 checkPath() {
     if [ ! -d "/opt/script/cron" ]; then
-        mkdir /opt/script/cron
+        mkdir -p /opt/script/cron
         chmod -R 777 /opt/script/cron
     fi
 }
