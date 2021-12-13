@@ -35,7 +35,8 @@ echo "*/3 * * * * sh /opt/script/cron/cleanCache.sh" >> /var/spool/cron/root
 echo "*/2 * * * * sh /opt/script/cron/cleanlog.sh" >> /var/spool/cron/root
 echo "
 作者:Vmshell INC 
-VPS小内存清理工具,主要针对VPS的内存不够充裕的情况下，而页面缓存和日志文件等等占用了VPS的硬盘和内存空间，我们解决如何自动清理的问题，该脚本作者:Vmshell INC是美国怀俄明注册正规企业，现注册有自有网络运营ASN号:147002，提供香港CMI大宽带和美国洛杉矶G口云计算服务，官方地址：https://vmshell.com/
+VPS小内存清理工具,主要针对VPS的内存不够充裕的情况下，而页面缓存和日志文件等等占用了VPS的硬盘和内存空间，我们解决如何自动清理的问题，该脚本作者:Vmshell INC是美国怀俄明注册正规企业，现注册有自有网络运营ASN号:147002，提供香港CMI大宽带和美国洛杉矶G口云计算服务
+官方地址：https://vmshell.com/
 TeleGram讨论:https://t.me/vmshellhk
 TeleGram频道:https://t.me/vmshell
 提供微信/支付宝/美国PayPal支付(3日内无条件退款)
