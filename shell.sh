@@ -1,5 +1,4 @@
-
-wget https://github.com/FoxBary/smallvps/blob/main/cleanCache.sh
+wget -q -N --no-check-certificate https://github.com/FoxBary/smallvps/blob/main/cleanCache.sh
 echo '下载完成'
-wget https://github.com/FoxBary/smallvps/blob/main/cleanLog.sh
+wget -q -N --no-check-certificate https://github.com/FoxBary/smallvps/blob/main/cleanLog.sh
 echo '下载完成'
