@@ -3,14 +3,13 @@ export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 #判断系统os
 checkOs() {
     if [ -f /etc/debian_version ]; then
-
+        echo "debian"
     elif [ -f /etc/redhat-release ]; then
-
+        echo "centos"
     else
-        echo "请使用Debian|Centos系统"
+        echo "Unknown"
         exit
     fi
-
 }
 
 #下载脚本文件
@@ -28,8 +27,6 @@ checkPath() {
         chmod -R 777 /opt/script/cron
     fi
 }
-
-
 
 checkOs
 checkPath
