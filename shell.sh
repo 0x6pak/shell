@@ -1,5 +1,5 @@
 #!/bin/sh
-
+export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 #判断系统os
 checkOs() {
     if [ -f /etc/debian_version ]; then
